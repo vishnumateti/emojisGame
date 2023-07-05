@@ -1,0 +1,43 @@
+/* Write your code here. */
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.emoji-button {
+  background-color: transparent;
+  border: 0px none transparent;
+}
+@media (max-width: 767px) {
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    height: 20%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+  .emoji-image {
+    height: 60px;
+    width: 60px;
+  }
+}

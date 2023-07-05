@@ -1,0 +1,93 @@
+/* Write your code here. */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff33;
+  border-radius: 5px;
+  padding: 30px;
+  width: 500px;
+  margin-top: 100px;
+  box-shadow: 2px 2px 2px 2px #ffffff33;
+}
+.score-container {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 0;
+  width: 200px;
+}
+.image {
+  height: 300px;
+  width: 300px;
+  order: 1;
+}
+.won-status {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.final-score {
+  font-family: 'Roboto';
+  color: #6a59ff;
+}
+button {
+  font-family: 'Roboto';
+  color: #3d3d3d;
+  background-color: #ffce27;
+  outline: none;
+  cursor: pointer;
+  border: 0px none transparent;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@media (max-width: 767px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff33;
+    border-radius: 5px;
+    padding: 30px;
+    width: 70%;
+    margin-top: 100px;
+    background-color: linear-gradient(to right, #9796f0 0.5%, #fbc7d4 150%);
+    box-shadow: 1px 1px 1px 1px #ffffff33;
+  }
+  .score-container {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+  .image {
+    height: 180px;
+    width: 180px;
+    order: 0;
+  }
+  .won-status {
+    font-family: 'Roboto';
+    color: #ffffff;
+  }
+  .final-score {
+    font-family: 'Roboto';
+    color: #6a59ff;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  button {
+    font-family: 'Roboto';
+    color: #3d3d3d;
+    background-color: #ffce27;
+    outline: none;
+    cursor: pointer;
+    border: 0px none transparent;
+    border-radius: 5px;
+    padding: 5px;
+  }
+}
